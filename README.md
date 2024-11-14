@@ -1,0 +1,1 @@
+This code implements Object-Oriented Programming concepts in MATLAB by developing a MATLAB-based student management system that allows users to manage student records, perform various analyses, and visualize student data.
