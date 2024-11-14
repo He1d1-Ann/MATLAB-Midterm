@@ -5,7 +5,7 @@
 % Task: GPA Avergae Visulization
 % Date: 11/11/2024
 
-#Creates plot of average GPA by major
+%Creates plot of average GPA by major
 function plotAverageGPAByMajor(students)
     majors = unique({students.Major});
     avgGPA = arrayfun(@(m) mean([students(strcmp({students.Major}, m)).GPA]), majors);
