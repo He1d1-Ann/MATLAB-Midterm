@@ -5,6 +5,7 @@
 % Task: Age Distrabution Visulization
 % Date: 11/11/2024
 
+#Creates a age distrabution histogram
 function plotAgeDistribution(students)
     ages = [students.Age];
     histogram(ages, 'FaceColor', 'r');
