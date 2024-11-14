@@ -12,12 +12,12 @@ clc;
 db = StudentDatabase();
 
 %creates 6 students with vaiorus attriutes
-s1 = Student('1', 'Alice', 20, 3.5, 'MechE');
-s2 = Student('2', 'Bob', 22, 3.8, 'Mathematics');
-s3 = Student('3', 'Charlie', 21, 3.2, 'Computer Science');
-s4 = Student('4', 'David', 23, 3.4, 'Physics');
-s5 = Student('5', 'Thomas', 21, 3.6, 'EcE');
-s6 = Student('6', 'Samantha', 20, 3.0, 'MechE');
+s1 = Student('1', 'Ian', 16, 1.9, 'MechE');
+s2 = Student('2', 'Nate', 13, 2.9, 'Mathematics');
+s3 = Student('3', 'Nolan 21, 3.6, 'Computer Science');
+s4 = Student('4', 'Trevor', 23, 4.0, 'Physics');
+s5 = Student('5', 'Layla', 21, 3.6, 'EcE');
+s6 = Student('6', 'CJ', 20, 3.0, 'MechE');
 
 %add students to the database
 db = db.addStudent(s1);
